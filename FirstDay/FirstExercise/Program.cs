@@ -1,5 +1,5 @@
 ﻿System.Diagnostics.Stopwatch stopwatch = new();
-string input = await File.ReadAllTextAsync("input.txt");  
+string input = await File.ReadAllTextAsync("../input.txt");  
 stopwatch.Start();
 var highest = 0;
 foreach(string elf in input.Split("\n\n"))

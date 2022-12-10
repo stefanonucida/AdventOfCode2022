@@ -1,5 +1,5 @@
 ﻿System.Diagnostics.Stopwatch stopwatch = new();
-var input = await File.ReadAllTextAsync("input.txt"); 
+var input = await File.ReadAllTextAsync("../input.txt"); 
 PriorityQueue<int,int> q = new();
 stopwatch.Start();
 foreach(var cal in input.Split("\n\n"))
